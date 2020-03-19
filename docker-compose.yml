@@ -8,5 +8,4 @@ services:
     build: .
     ports:
     - "9090:8080"
-#    restart: always
-#    restart: on-failure
+    restart: always
